@@ -82,7 +82,7 @@ table {
     list-style-type: none;
     float: left;
     color: black;
-    padding: 4vw 5vw;
+    padding: 3vw 5vw;
 }
 
 .navigation a {
@@ -109,26 +109,30 @@ i {
     color: rgb(255, 170, 170);
 }
 
-.drop-menu {
-    display: none;
-    text-align: center;
+.drop-content {
     position: absolute;
-    z-index: 1;
     top: 100%;
-    float: left;
-}
-
-.drop-menu li {
-    background-color: cyan;
-    list-style: none;
-    min-width: 50px;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.drop-main:hover .drop-menu {
     display: flex;
-    flex-flow: column; 
+    flex-flow: column;
+    align-content: center;
+    justify-content: space-evenly;
+    background-color: rgba(255, 255, 255, 0.75);
+    box-shadow: 
+}
+
+.drop-content li {
+    display: none;
+    width: auto;
+}
+  
+li:hover > .drop-content li {
+    opacity: 1;
+    display: flex;
+    flex-flow: row;
+    padding: 15px 30px;
+    justify-content: space-evenly;
+    align-content: center;
+    
 }
 
 .pageTitle {
