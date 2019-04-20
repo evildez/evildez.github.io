@@ -31,11 +31,11 @@
                     <li><a class="links" href="#Home">Home</a></li>
                     <li><a class="links" href="#Info">Info</a></li>
                     <li><a class="links" href="#Gallery">Gallery</a></li>
-                    <li class="drop-main"><i class="fa fa-cog"></i>
-                        <ul class="drop-content">
-                                <li><button onclick="changeBGColor(); setTimeout(timingMark, 750)" id="buttonReceiver" class="hoverable"><i class='fas fa-moon'></i></button></li>
-                                <li><button onclick="togglePlay();"><i id="buttonToggle" class="fa fa-play"></i></button><audio id="audio1" src="Audio/audio1.mp3"></audio></li>
-                                <li><button onclick="volumeDown();"><i class="fa fa-volume-down"></i></button><button onclick="volumeUp();"><i class="fa fa-volume-up"></i></button></li>
+                    <li class="drop-main"><button onclick="displayAdd();"><i class="fa fa-cog"></i></button>
+                        <ul class="drop-content" id="dc">
+                                <li class="drop-item"><button onclick="changeBGColor(); setTimeout(timingMark, 750)" id="buttonReceiver" class="hoverable"><i class='fas fa-moon'></i></button></li>
+                                <li class="drop-item"><button onclick="togglePlay();"><i id="buttonToggle" class="fa fa-play"></i></button><audio id="audio1" src="Audio/audio1.mp3"></audio></li>
+                                <li class="drop-item"><button onclick="volumeDown();"><i class="fa fa-volume-down"></i></button><button onclick="volumeUp();"><i class="fa fa-volume-up"></i></button></li>
                         </ul>
                     </li>
                 </ul>

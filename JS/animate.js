@@ -5,9 +5,16 @@ var nText = document.getElementsByClassName("navigation");
 
 var links = document.getElementsByClassName("links");
 
+var dropMenu = document.getElementsByClassName("drop-content");
+
 var counter = 0; 
 
 var check;
+var toggled = false;
+
+function displayAdd() {
+    dropMenu[0].classList.toggle("showClass");
+}
 
 window.onload = function() {
     
@@ -37,17 +44,21 @@ function changeBGColor() {
 
         document.body.style.background = "rgb(15, 15, 15)";
         document.body.style.color = "white";
+
         for (let i = 0; i < marker.length; i++) {
             marker[i].style.color = "rgb(15, 15, 15, 0)";
         }
+
         gText[0].style.color = "white";
         document.getElementById('gal').style.borderBottomColor = "white";
         nText[0].style.color = "white";
         nText[0].style.backgroundColor = "rgb(15, 15, 15, 0.75)";
         
-        for (j = 0; j < links.length; j++) {
+        for (let j = 0; j < links.length; j++) {
             links[j].style.color = "white";
         }
+
+        dropMenu[0].style.backgroundColor = "rgb(15, 15, 15, 0.75)";
         
         counter = counter + 1;
 
@@ -62,9 +73,11 @@ function changeBGColor() {
         document.getElementById('gal').style.borderBottomColor = "rgb(15, 15, 15, 1)";
         nText[0].style.backgroundColor = "rgb(255, 255, 255, 0.7)";
         
-        for (j = 0; j < links.length; j++) {
+        for (let j = 0; j < links.length; j++) {
             links[j].style.color = "rgb(15, 15, 15, 1)";
         }
+
+        dropMenu[0].style.backgroundColor = "rgb(255, 255, 255, 0.75)";
 
         counter = 0;
     }

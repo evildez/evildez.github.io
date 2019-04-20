@@ -90,6 +90,10 @@ table {
     color: rgb(15, 15, 15);
 }
 
+.navigation a:hover {
+    border-bottom: 1px solid rgb(255, 170, 170);  
+}
+
 .navigation button {
     float: right;
     border: none;
@@ -112,27 +116,47 @@ i {
 .drop-content {
     position: absolute;
     top: 100%;
-    display: flex;
+    left: 50%;
+    width: 25%;
+    transform: translate(-50%);
+    display: none;
     flex-flow: column;
     align-content: center;
     justify-content: space-evenly;
     background-color: rgba(255, 255, 255, 0.75);
-    box-shadow: 
+    transition: all 0.75s ease-in-out;
+    border-bottom: 1px solid rgb(255, 170, 170);
+    border-right: 1px solid rgb(255, 170, 170);
+    border-left: 1px solid rgb(255, 170, 170);
 }
 
 .drop-content li {
-    display: none;
-    width: auto;
-}
-  
-li:hover > .drop-content li {
-    opacity: 1;
     display: flex;
     flex-flow: row;
-    padding: 15px 30px;
     justify-content: space-evenly;
     align-content: center;
-    
+    padding: 15px 30px;
+    width: auto;
+    opacity: 1;
+}
+
+.showClass {
+    display: flex;
+    animation: animateDD 1s ease-in-out forwards;
+}
+
+@keyframes animateDD {
+    0% {
+        top: 30%;
+        opacity: 0;
+    }
+    60% {
+        top: 115%;
+        opacity: 1;
+    }
+    100% {
+        top: 100%;
+    }
 }
 
 .pageTitle {
@@ -146,7 +170,7 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     text-align: center;
-    font-size: 5vw;
+    font-size: 64pt;
     letter-spacing: 0.15em;
 }
 
@@ -329,4 +353,18 @@ video {
         left: 50%;
         width: 85%;
     }
+}
+
+@media only screen and (max-width: 750px) {
+    .navigation {
+        font-size: 12pt;
+    }
+    i {
+        font-size: 12pt;
+    }
+
+    h1 {
+        font-size: 42pt;
+    }
+
 }
