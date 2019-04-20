@@ -363,9 +363,13 @@ video {
     i {
         font-size: 12pt;
     }
-
     h1 {
         font-size: 42pt;
     }
+}
 
+@media only screen and (max-width: 750px) {
+    h1 {
+        font-size: 30pt;
+    }
 }
