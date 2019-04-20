@@ -16,6 +16,12 @@ function displayAdd() {
     dropMenu[0].classList.toggle("showClass");
 }
 
+window.onclick = function(event) {
+    if (!event.target.matches('.buttonClicked')) {
+        dropMenu[0].classList.remove("showClass");
+    }
+}
+
 window.onload = function() {
     
     (function(a) {
