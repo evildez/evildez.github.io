@@ -280,6 +280,7 @@ h1 {
 
 video {
     object-fit: cover;
+    width: 100%;
 }
 
 /* Cursor */
