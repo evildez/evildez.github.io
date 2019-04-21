@@ -38,6 +38,6 @@ Also, it popped a massive creative inflow for my personal proyects. I hope it re
 
 #### Contact Info.
 
-| Full Name:                  | e-mail:                                                  |
-| --------------------------- | -------------------------------------------------------- |
-| Emilio Villarruel Fernández | [fernandezemiliov@gmail.com](fernandezemiliov@gmail.com) |
+| Full Name:                  | e-mail:                    |
+| --------------------------- | -------------------------- |
+| Emilio Villarruel Fernández | fernandezemiliov@gmail.com |
