@@ -373,3 +373,7 @@ video {
         font-size: 30pt;
     }
 }
+
+.secret_mod {
+    color: white;
+}

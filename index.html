@@ -2,57 +2,66 @@
 
 <html>
 
-    <head>
+<head>
 
-        <title>Watson and Sherlock</title>
+    <title>Watson and Sherlock</title>
 
-        <link rel="icon" href="icon.ico" type="image/x-icon">
+    <link rel="icon" href="icon.ico" type="image/x-icon">
 
-        <link rel="stylesheet" href="StyleWatson.css"> 
-        
-        <meta charset="UTF-8">
-        <meta name="description" content="Watsons Corner">
-        <meta name="author" content="Sherlock de Vega">
+    <link rel="stylesheet" href="StyleWatson.css">
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8">
+    <meta name="description" content="Watsons Corner">
+    <meta name="author" content="Sherlock de Vega">
 
-        <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Montserrat|Roboto:100" rel="stylesheet">
-        <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    </head>
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Montserrat|Roboto:100" rel="stylesheet">
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+        integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
 
-    <script type="text/javascript" src="JS/animate.js"></script>
+</head>
 
-    <body onmousemove="displayCursor(event)">
+<script type="text/javascript" src="JS/animate.js"></script>
 
-        <div class="landing" id="Home">
+<body onmousemove="displayCursor(event)">
 
-            <div class="navigation">
-                <ul>
-                    <li><a class="links" href="#Home">Home</a></li>
-                    <li><a class="links" href="#Info">Info</a></li>
-                    <li><a class="links" href="#Gallery">Gallery</a></li>
-                    <li class="drop-main"><button onclick="displayAdd();" class="buttonClicked"><i class="fa fa-cog buttonClicked"></i></button>
-                        <ul class="drop-content buttonClicked" id="dc">
-                                <li class="drop-item buttonClicked"><button onclick="changeBGColor(); setTimeout(timingMark, 750)" id="buttonReceiver"><i class='fas fa-moon'></i></button></li>
-                                <li class="drop-item buttonClicked"><button onclick="togglePlay();"><i id="buttonToggle" class="fa fa-play"></i></button><audio id="audio1" src="Audio/audio1.mp3"></audio></li>
-                                <li class="drop-item buttonClicked"><button onclick="volumeDown();"><i class="fa fa-volume-down buttonClicked"></i></button><button onclick="volumeUp();"><i class="fa fa-volume-up buttonClicked"></i></button></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="pageTitle">
-                <h1>
-                    <mark class="markC">Wats</mark>on <mark class="markC">&</mark> <mark class="markC">S</mark>her<mark class="markC">lock</mark>
-                </h1>
-            </div>
+    <div class="landing" id="Home">
+
+        <div class="navigation">
+            <ul>
+                <li><a class="links" href="#Home">Home</a></li>
+                <li><a class="links" href="#Info">Info</a></li>
+                <li><a class="links" href="#Gallery">Gallery</a></li>
+                <li class="drop-main"><button onclick="displayAdd();" class="buttonClicked"><i
+                            class="fa fa-cog buttonClicked"></i></button>
+                    <ul class="drop-content buttonClicked" id="dc">
+                        <li class="drop-item buttonClicked"><button
+                                onclick="changeBGColor(); setTimeout(timingMark, 750)" id="buttonReceiver"><i
+                                    class='fas fa-moon'></i></button></li>
+                        <li class="drop-item buttonClicked"><button onclick="togglePlay();"><i id="buttonToggle"
+                                    class="fa fa-play"></i></button><audio id="audio1" src="Audio/audio1.mp3"></audio>
+                        </li>
+                        <li class="drop-item buttonClicked"><button onclick="volumeDown();"><i
+                                    class="fa fa-volume-down buttonClicked"></i></button><button
+                                onclick="volumeUp();"><i class="fa fa-volume-up buttonClicked"></i></button></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
+        <div class="pageTitle">
+            <h1>
+                <mark class="markC">Wats</mark>on <mark class="markC">&</mark> <mark class="markC">S</mark>her<mark
+                    class="markC">lock</mark>
+            </h1>
+        </div>
+    </div>
 
-        <div class="info" id="Info">
-            <div class="infoChild">
-                <div class="centerContent">
-                    <h2>Una pequeña historia para una gran pareja.</h3>
+    <div class="info" id="Info">
+        <div class="infoChild">
+            <div class="centerContent">
+                <h2>Una pequeña historia para una gran pareja.</h3>
                     <p>Este pequeño detalle tiene como objetivo hacer un recuento de ciertos eventos
                         que nos han acaecido desde hace ya unos meses. Son sucesos que a querer y no
                         han marcado nuestra manera de pensar y de actuar como pareja.
@@ -67,84 +76,88 @@
                         <br>
                         Quiero que disfrutes esta cosita y que sepas que lo hice con todo el amor
                         del mundo.
-                    </h4>
-                </div>
-            </div>
-            <div class="infoChild">
-                <img src="Images\image1.jpg">
+                        </h4>
             </div>
         </div>
+        <div class="infoChild">
+            <img src="Images\image1.jpg">
+        </div>
+    </div>
 
-        <div class="gallery" id="Gallery">
-            <div class="galleryText">
-                <h2 id="gal">Galería.</h2>
-                <p>
-                    Aquí vas a encontrar algunas fotos que te pedí indiscretamente (gg). 
-                    El chiste es que te acuerdes de una que otra cosilla, con un comentario 
-                    extra de mi parte, es algo pequeño esto que te ofrezco, pero creo que 
-                    vale la pena. Te amo amor mío, espero sea de tu agrado.
-                </p>
-            </div>
-
-            <div class="photosGal">
-
-                <div class="photosChild">
-                    <img src="Images/IMAGE001.JPG">
-                    <img src="Images/image16.jpg">
-                    <h2>Nuestra primera de muchas cenas de Navidad.</h2>
-                    <img src="Images/image15.jpg">
-                    <img src="Images/image6.jpg">
-                    <img src="Images/image14.jpg">
-                    <img src="Images/image22.jpg">
-                    <h2>10 años de Enlace.</h2>
-                    <video src="Videos/video6.ogg" controls autoplay muted loop></video>
-                    <h2>Mi ninia que siempre anda comprando ropa. Mi niña fashion.</h2>
-                    <img src="Images/image9.jpg">
-                    <h2>5 de Enero. Día muy importante.</h2>
-                    <img src="Images/image10.jpg">
-                    <h2>Los mejores vendajes S.A. de C.V.</h2>
-                    <img src="Images/image23.JPG">
-                    <video src="Videos/video7.ogg" controls muted autoplay loop></video>
-                    <h2>Miren su pelito todo boneto y sus lentecitos todos bonetos.</h2>
-                    <img src="Images/image11.jpg">
-                    <img src="Images/image17.jpg">
-                    <h2>¡Qué día más bonito! Festejamos mi pumple, gracias amor.</h2>  
-                    <video src="Videos/video3.ogg" loop muted autoplay controls></video>
-                    <h2>Un día de crepas en Oasis.</h2>
-                </div>
-                <div class="photosChild">
-                    <img src="Images/image5.jpg">
-                    <h2>Haciendo un dado para tu brigada.</h2>
-                    <img src="Images/IMAGE002.JPG">
-                    <img src="Images/image4.JPG">
-                    <video src="Videos/video2.ogg" loop muted autoplay controls></video>
-                    <h2>14 de Septiembre. Tu cumpleaños fue un día lleno de emociones.</h2>
-                    <img src="Images/image7.jpg">
-                    <img src="Images/image8.jpg">
-                    <h2>El día que te di tu pulsera amor. 29 de Diciembre, lo recuerdo como si fuera ayer.</h2>
-                    <video src="Videos/video8.ogg" loop muted autoplay controls></video>
-                    <img src="Images/IMAGE000.JPG">
-                    <video src="Videos/video1.ogg" loop muted autoplay controls></video>
-                    <h2>Uno de los días más divertidos que hemos tenido. Sin duda alguna.</h2>
-                    <img src="Images/image18.jpg">
-                    <img src="Images/image19.jpg">
-                    <img src="Images/image20.jpg">
-                    <h2>Un día de cine un tanto diferente.</h2>
-                    <video src="Videos/video5.ogg" controls muted autoplay loop></video>
-                    <h2>Un video chiquito que te mandé por ahí.</h2>
-                    <img src="Images/image21.jpg">
-                    <h2>Te caí de sorpresa ese día. Estuvo super bonito y de mega flojerita.</h2>
-                    <img src="Images/image12.jpg">
-                    <h2>La señora de los anillos.</h2>
-                    <video src="Videos/video4.ogg" controls muted autoplay loop></video>
-                    <h2>Mi ninia que se sentía mal. Pobechita de mi ninia pechocha.</h2>
-                    </video>
-                </div>
-            </div>
+    <div class="gallery" id="Gallery">
+        <div class="galleryText">
+            <h2 id="gal">Galería.</h2>
+            <p>
+                Aquí vas a encontrar algunas fotos que te pedí indiscretamente (gg).
+                El chiste es que te acuerdes de una que otra cosilla, con un comentario
+                extra de mi parte, es algo pequeño esto que te ofrezco, pero creo que
+                vale la pena. Te amo amor mío, espero sea de tu agrado.
+            </p>
         </div>
 
-        <div id="cursor"></div>
+        <div class="photosGal">
 
-    </body>
+            <div class="photosChild">
+                <img src="Images/IMAGE001.JPG">
+                <img src="Images/image16.jpg">
+                <h2>Nuestra primera de muchas cenas de Navidad.</h2>
+                <img src="Images/image15.jpg">
+                <img src="Images/image6.jpg">
+                <img src="Images/image14.jpg">
+                <img src="Images/image22.jpg">
+                <h2>10 años de Enlace.</h2>
+                <video src="Videos/video6.ogg" controls autoplay muted loop></video>
+                <h2>Mi ninia que siempre anda comprando ropa. Mi niña fashion.</h2>
+                <img src="Images/image9.jpg">
+                <h2>5 de Enero. Día muy importante.</h2>
+                <img src="Images/image10.jpg">
+                <h2>Los mejores vendajes S.A. de C.V.</h2>
+                <img src="Images/image23.JPG">
+                <video src="Videos/video7.ogg" controls muted autoplay loop></video>
+                <h2>Miren su pelito todo boneto y sus lentecitos todos bonetos.</h2>
+                <img src="Images/image11.jpg">
+                <img src="Images/image17.jpg">
+                <h2>¡Qué día más bonito! Festejamos mi pumple, gracias amor.</h2>
+                <video src="Videos/video3.ogg" loop muted autoplay controls></video>
+                <h2>Un día de crepas en Oasis.</h2>
+            </div>
+            <div class="photosChild">
+                <img src="Images/image5.jpg">
+                <h2>Haciendo un dado para tu brigada.</h2>
+                <img src="Images/IMAGE002.JPG">
+                <img src="Images/image4.JPG">
+                <video src="Videos/video2.ogg" loop muted autoplay controls></video>
+                <h2>14 de Septiembre. Tu cumpleaños fue un día lleno de emociones.</h2>
+                <img src="Images/image7.jpg">
+                <img src="Images/image8.jpg">
+                <h2>El día que te di tu pulsera amor. 29 de Diciembre, lo recuerdo como si fuera ayer.</h2>
+                <video src="Videos/video8.ogg" loop muted autoplay controls></video>
+                <img src="Images/IMAGE000.JPG">
+                <video src="Videos/video1.ogg" loop muted autoplay controls></video>
+                <h2>Uno de los días más divertidos que hemos tenido. Sin duda alguna.</h2>
+                <img src="Images/image18.jpg">
+                <img src="Images/image19.jpg">
+                <img src="Images/image20.jpg">
+                <h2>Un día de cine un tanto diferente.</h2>
+                <video src="Videos/video5.ogg" controls muted autoplay loop></video>
+                <h2>Un video chiquito que te mandé por ahí.</h2>
+                <img src="Images/image21.jpg">
+                <h2>Te caí de sorpresa ese día. Estuvo super bonito y de mega flojerita.</h2>
+                <img src="Images/image12.jpg">
+                <h2>La señora de los anillos.</h2>
+                <video src="Videos/video4.ogg" controls muted autoplay loop></video>
+                <h2>Mi ninia que se sentía mal. Pobechita de mi ninia pechocha.</h2>
+                </video>
+                <h2 class="secret_mod">
+                    47 75 73 61 6e 61 20 68 65 72 6d 6f 73 61 20 64 65 20 6d 69 20 76 69 64 61 2e
+                    20 45 72 65 73 20 6c 61 20 6d e1 73 20 62 6f 6e 69 74 61 20 64 65 20 6c 61 20
+                    76 69 64 61 2e 20 54 65 20 61 6d 6f 20 79 20 74 65 20 65 78 74 72 61 f1 6f 2e</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="cursor"></div>
+
+</body>
 
 </html>
