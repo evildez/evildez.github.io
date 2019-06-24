@@ -7,7 +7,7 @@ var links = document.getElementsByClassName("links");
 
 var dropMenu = document.getElementsByClassName("drop-content");
 
-var secret = document.getElementsByClassName("secret_mod");
+var secret = document.getElementsByClassName("secret-mod")
 
 var counter = 0;
 
@@ -53,9 +53,7 @@ function changeBGColor() {
         document.body.style.background = "rgb(15, 15, 15)";
         document.body.style.color = "white";
 
-        for (let i = 0; i < marker.length; i++) {
-            secret[i].style.color = "rgb(15, 15, 15)";
-        }
+        secret[0].style.color = "rgb(15, 15, 15)";
 
         for (let i = 0; i < marker.length; i++) {
             marker[i].style.color = "rgb(15, 15, 15, 0)";
@@ -89,11 +87,9 @@ function changeBGColor() {
             links[j].style.color = "rgb(15, 15, 15, 1)";
         }
 
-        dropMenu[0].style.backgroundColor = "rgb(255, 255, 255, 0.75)";
+        secret[0].style.color = "white";
 
-        for (let j = 0; j < links.length; j++) {
-            secret[j].style.color = "white";
-        }
+        dropMenu[0].style.backgroundColor = "rgb(255, 255, 255, 0.75)";
 
         counter = 0;
     }
