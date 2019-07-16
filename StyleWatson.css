@@ -377,3 +377,15 @@ video {
 .secret-mod {
     color: white;
 }
+
+.message {
+    height: 100%;   
+    display: flex;
+    flex-flow: row;
+    color: black;
+}
+
+.article {
+    display: flex;
+    vertical-align: center;
+}
