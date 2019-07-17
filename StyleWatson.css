@@ -378,14 +378,35 @@ video {
     color: white;
 }
 
-.message {
-    height: 100%;   
-    display: flex;
-    flex-flow: row;
-    color: black;
+.article {
+    padding: 10%;
 }
 
-.article {
-    display: flex;
-    vertical-align: center;
+h4 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 26pt;
+    padding: 0 0 10px;
+}
+
+h5 {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: initial;
+    font-size: 14pt;
+    padding: 0 0 10px;
+    color: rgb(86, 86, 86);
+}
+
+.article p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: initial;
+    font-size: 10pt;
+    text-align: justify;
+    line-height: 15pt;
+}
+
+#textShift {
+    text-align: right;
+    padding: 20px 0 0;
+    font-weight: bold;
 }
