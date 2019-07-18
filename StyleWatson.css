@@ -378,18 +378,22 @@ video {
     color: white;
 }
 
-.article {
+.cards {
     padding: 10%;
 }
 
-h4 {
+.article {
+    margin: 0 0 35px;
+}
+
+.article h4 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: bolder;
     font-size: 26pt;
     padding: 0 0 10px;
 }
 
-h5 {
+.article h5 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: initial;
     font-size: 14pt;
@@ -403,10 +407,4 @@ h5 {
     font-size: 10pt;
     text-align: justify;
     line-height: 15pt;
-}
-
-#textShift {
-    text-align: right;
-    padding: 20px 0 0;
-    font-weight: bold;
 }
