@@ -23,200 +23,31 @@
 
 </head>
 
-<script type="text/javascript" src="JS/animate.js"></script>
+<body>
 
-<body onmousemove="displayCursor(event)">
-
-    <div class="landing" id="Home">
-
-        <div class="navigation">
-            <ul>
-                <li><a class="links" href="#Home">Home</a></li>
-                <li><a class="links" href="#Info">Info</a></li>
-                <li><a class="links" href="#Gallery">Gallery</a></li>
-                <li class="drop-main"><button onclick="displayAdd();" class="buttonClicked"><i
-                            class="fa fa-cog buttonClicked"></i></button>
-                    <ul class="drop-content buttonClicked" id="dc">
-                        <li class="drop-item buttonClicked"><button
-                                onclick="changeBGColor(); setTimeout(timingMark, 750)" id="buttonReceiver"><i
-                                    class='fas fa-moon'></i></button></li>
-                        <li class="drop-item buttonClicked"><button onclick="togglePlay();"><i id="buttonToggle"
-                                    class="fa fa-play"></i></button><audio id="audio1" src="Audio/audio1.mp3"></audio>
-                        </li>
-                        <li class="drop-item buttonClicked"><button onclick="volumeDown();"><i
-                                    class="fa fa-volume-down buttonClicked"></i></button><button
-                                onclick="volumeUp();"><i class="fa fa-volume-up buttonClicked"></i></button></li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-        <div class="pageTitle">
-            <h1>
-                <mark class="markC">Wats</mark>on <mark class="markC">&</mark> <mark class="markC">S</mark>her<mark
-                    class="markC">lock</mark>
-            </h1>
-        </div>
-    </div>
-
-    <div class="info" id="Info">
-        <div class="infoChild">
-            <div class="centerContent">
-                <h2>Una pequeña historia para una gran pareja.</h2>
-                <p>Este pequeño detalle tiene como objetivo hacer un recuento de ciertos eventos
-                    que nos han acaecido desde hace ya unos meses. Son sucesos que a querer y no
-                    han marcado nuestra manera de pensar y de actuar como pareja.
-                    <br>
-                    <br>
-                    Sí, hemos tenido días buenos y días malos, como cualquier pareja, pero lo
-                    importante aquí es que hemos podido sobrellevar las cosas de una muy buena
-                    manera. Cabe recalcar que tu apoyo y el esfuerzo que has realizado es
-                    inigualable y no creo que sepas lo agradecido que me siento contigo por
-                    todo lo que eso implica y por muchas más de las que crees.
-                    <br>
-                    <br>
-                    Quiero que disfrutes esta cosita y que sepas que lo hice con todo el amor
-                    del mundo.
-                </p>
-            </div>
-        </div>
-        <div class="infoChild">
-            <img src="Images\image1.jpg">
-        </div>
-    </div>
-
-    <div class="gallery" id="Gallery">
-        <div class="galleryText">
-            <h2 id="gal">Galería.</h2>
+    <div class="cards">
+        <div class="article">
+            <h4>Para mi pequeña:</h4>
+            <h5>16/07/2019 18:16:02</h5>
             <p>
-                Aquí vas a encontrar algunas fotos que te pedí indiscretamente (gg).
-                El chiste es que te acuerdes de una que otra cosilla, con un comentario
-                extra de mi parte, es algo pequeño esto que te ofrezco, pero creo que
-                vale la pena. Te amo amor mío, espero sea de tu agrado.
+                Te escribo esto para contarte una cosa que he estado pensando desde ese día. Sé que solo han sido a
+                lo mucho cinco días, pero creo que vale la pena decirlo a estas alturas.
+                <br><br>
+                Te quiero pedir una disculpa honesta.
+                <br><br>
+                Mi comportamiento y mi manera de actuar en la tarde del viernes fueron completamente inmaduras y
+                desatinadas. Sé que no puedo presentar cambios repentinos de una semana para otra, pero déjame
+                decirte que me siento muy sereno contigo y con nosotros en estos momentos. Espero poder mantener
+                dicho sentimiento el mayor tiempo posible, hacerlo florecer, cuidarlo y procurarlo.
+                <br><br>
+                Se empieza por algo, ¿no amor? Mi manera de empezar es retomar algo que me sirvió durante algunos
+                años y lo dejé por mero olvido. Me refiero a la meditación. Lo estoy realizando por las
+                noches,prácticamente en la madrugada. Sé que es algo extraño, pero sé que me servira. Espero puedas
+                notar en un futuro cercano el cambio. De todos modos pondre todo de mi para hacer las cosas bien. Te
+                amo pequeña.
             </p>
         </div>
-
-        <div class="photosGal">
-
-            <div class="photosChild">
-                <img src="Images/IMAGE001.JPG">
-                <img src="Images/image16.jpg">
-                <h2>Nuestra primera de muchas cenas de Navidad.</h2>
-                <img src="Images/image15.jpg">
-                <img src="Images/image6.jpg">
-                <img src="Images/image14.jpg">
-                <img src="Images/image22.jpg">
-                <h2>10 años de Enlace.</h2>
-                <video src="Videos/video6.ogg" controls autoplay muted loop></video>
-                <h2>Mi ninia que siempre anda comprando ropa. Mi niña fashion.</h2>
-                <img src="Images/image9.jpg">
-                <h2>5 de Enero. Día muy importante.</h2>
-                <img src="Images/image10.jpg">
-                <h2>Los mejores vendajes S.A. de C.V.</h2>
-                <img src="Images/image23.JPG">
-                <video src="Videos/video7.ogg" controls muted autoplay loop></video>
-                <h2>Miren su pelito todo boneto y sus lentecitos todos bonetos.</h2>
-                <img src="Images/image11.jpg">
-                <img src="Images/image17.jpg">
-                <h2>¡Qué día más bonito! Festejamos mi pumple, gracias amor.</h2>
-                <video src="Videos/video3.ogg" loop muted autoplay controls></video>
-                <h2>Un día de crepas en Oasis.</h2>
-            </div>
-            <div class="photosChild">
-                <img src="Images/image5.jpg">
-                <h2>Haciendo un dado para tu brigada.</h2>
-                <img src="Images/IMAGE002.JPG">
-                <img src="Images/image4.JPG">
-                <video src="Videos/video2.ogg" loop muted autoplay controls></video>
-                <h2>14 de Septiembre. Tu cumpleaños fue un día lleno de emociones.</h2>
-                <img src="Images/image7.jpg">
-                <img src="Images/image8.jpg">
-                <h2>El día que te di tu pulsera amor. 29 de Diciembre, lo recuerdo como si fuera ayer.</h2>
-                <video src="Videos/video8.ogg" loop muted autoplay controls></video>
-                <img src="Images/IMAGE000.JPG">
-                <video src="Videos/video1.ogg" loop muted autoplay controls></video>
-                <h2>Uno de los días más divertidos que hemos tenido. Sin duda alguna.</h2>
-                <img src="Images/image18.jpg">
-                <img src="Images/image19.jpg">
-                <img src="Images/image20.jpg">
-                <h2>Un día de cine un tanto diferente.</h2>
-                <video src="Videos/video5.ogg" controls muted autoplay loop></video>
-                <h2>Un video chiquito que te mandé por ahí.</h2>
-                <img src="Images/image21.jpg">
-                <h2>Te caí de sorpresa ese día. Estuvo super bonito y de mega flojerita.</h2>
-                <img src="Images/image12.jpg">
-                <h2>La señora de los anillos.</h2>
-                <video src="Videos/video4.ogg" controls muted autoplay loop></video>
-                <h2>Mi ninia que se sentía mal. Pobechita de mi ninia pechocha.</h2>
-                </video>
-                <h2 class="secret-mod">
-                    47 75 73 61 6e 61 20 68 65 72 6d 6f 73 61 20 64 65 20 6d 69 20 76 69 64 61 2e
-                    20 45 72 65 73 20 6c 61 20 6d e1 73 20 62 6f 6e 69 74 61 20 64 65 20 6c 61 20
-                    76 69 64 61 2e 20 54 65 20 61 6d 6f 20 79 20 74 65 20 65 78 74 72 61 f1 6f 2e
-                </h2>
-            </div>
-        </div>
-
-        <div class="cards">
-            <div class="article">
-                <h4>Para mi pequeña:</h4>
-                <h5>16/07/2019 18:16:02</h5>
-                <p>
-                    Te escribo esto para contarte una cosa que he estado pensando desde ese día. Sé que solo han sido a
-                    lo mucho cinco días, pero creo que vale la pena decirlo a estas alturas.
-                    <br><br>
-                    Te quiero pedir una disculpa honesta.
-                    <br><br>
-                    Mi comportamiento y mi manera de actuar en la tarde del viernes fueron completamente inmaduras y
-                    desatinadas. Sé que no puedo presentar cambios repentinos de una semana para otra, pero déjame
-                    decirte que me siento muy sereno contigo y con nosotros en estos momentos. Espero poder mantener
-                    dicho sentimiento el mayor tiempo posible, hacerlo florecer, cuidarlo y procurarlo.
-                    <br><br>
-                    Se empieza por algo, ¿no amor? Mi manera de empezar es retomar algo que me sirvió durante algunos
-                    años y lo dejé por mero olvido. Me refiero a la meditación. Lo estoy realizando por las
-                    noches,prácticamente en la madrugada. Sé que es algo extraño, pero sé que me servira. Espero puedas
-                    notar en un futuro cercano el cambio. De todos modos pondre todo de mi para hacer las cosas bien. Te
-                    amo pequeña.
-                </p>
-            </div>
-            <div class="article">
-                <h4>Andrea:</h4>
-                <h5>17/07/2019 22:50:52</h5>
-                <p>
-                    Amor, no sé qué pueda hacer para apoyarte en este tipo de momentos. A decir verdad siento un poco de
-                    impotencia, pero tambien me valgo de todas las cosas que decidí compartir contigo. Es un tipo de
-                    sentimiento agridulce ya que por un lado es un tanto bonito el saber que las cosas que digo
-                    realmente te llegan, pero por otro lado sé que no pudo ayudar mucho a cambiar tu humor ya que sé que
-                    puedo ser un poco hartante con mis historias.
-                    <br><br>
-                    Fuera de ello espero realmente que sientas un apoyo de mi parte, en verdad espero que lo sientas.
-                    Espero que me sientas ahí, contigo.
-                    <br><br>
-                    Te amo though. Y mucho.
-                </p>
-            </div>
-            <div class="article">
-                <h4>Lejos...:</h4>
-                <h5>19/07/19 02:11:41</h5>
-                <p>Tristeza es una palabra fuerte y no quisiera utilizarla, pero me veo en la necesidad de hacerlo. Eso
-                    es lo que siento en este momento. Creo que algo que no he dicho o expresado es lo siguiente:
-                    considero que es un tanto injusto el "derramar" sobre uno todos los sentiemientos que se tienen
-                    acumulados a lo largo de unas horas y esperar que esa persona sepa manejar y ordenar perfectamente
-                    esa ráfaga inicial de sentimientos.
-                    <br><br>
-                    Créeme que no es emocionalmente sencillo cambiar de un tono a otro al ser quien quiere ayudar a la
-                    otra persona a "ponerse de pié". Creo que eso es lo que pasó, pero es algo que hice porque me
-                    importa en verdad lo que sientes.
-                    <br><br>
-                    Es un comentario nada más.
-                    <br><br>
-                    Y por cierto, si sientes que esto lo estoy mandando lejos, dímelo.</p>
-            </div>
-        </div>
     </div>
-
-
-
-    <div id="cursor"></div>
 
 </body>
 
